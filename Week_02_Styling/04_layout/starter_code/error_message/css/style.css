@@ -1,0 +1,59 @@
+.pageHeader{
+
+	padding: 5px;
+	padding-left: 20px;
+}
+
+h1{
+
+	font-family: arial;
+
+}
+
+code {
+
+	border: solid gray 0.50px;
+	color: black;
+	background:rgba(255,255,255,0.75);
+	border-radius: 5px;
+	padding: 2px;
+
+}
+
+div {
+
+	border: solid gray 1px;
+	padding: 15px;
+	background: #FFE;
+	margin-bottom: 10px;
+	font-family: arial;
+	padding-bottom: 20px;
+
+}
+
+.messageerror{
+
+	background: #FEE;
+	border-color: darkred;
+	padding: 18px;
+
+
+}
+
+.notification {
+
+	background: lightgray;
+	padding: 10px;
+
+
+}
+
+h2 {
+
+	font-family: arial;
+}
+
+p {
+
+	font-family: arial;
+}

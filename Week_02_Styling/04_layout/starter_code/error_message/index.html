@@ -13,11 +13,15 @@
 
 <body>
 
+<header class="pageHeader">
+
+
   <h1>Classes and IDs</h1>
 
 <p>Say we have a notification to style, with an id of <code>notification</code>.<p>
 
-<div>
+
+<div id="notification">
   This has an <strong>id</strong> of <code>notification</code>, so it is selected in CSS with <code>#notification</code>. Check it out.
 </div>
 
@@ -45,7 +49,8 @@
 
 <p>An element can be given multiple classes, separated by spaces, such as <code>class="foo bar baz"</code>.</p>
 
-<div>
+
+<div class="messageerror">
   This has <code>class="message error"</code>, meaning it has two classes: <code>message</code> and <code>error</code>. It will get styles from <code>.message</code> and <code>.error</code>. The styles for <code>.error</code> override the default styles, which we achieve by placing them after the styles for <code>.message</code>.
 </div>
 

@@ -24,3 +24,220 @@ body {
       background-size: cover;
 }
 
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.tagline {
+  font-size: 48px;
+  color: #fff;
+  margin: 120px 0 90px;
+  font-weight: 600;
+}
+
+.pageIntro {
+  height: 700px;
+  background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+  padding-top: 32px;
+}
+
+.btn {
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-cta {
+  background: #f9e42e;
+  color: #033048;
+  padding: 12px 0;
+  text-align: center;
+}
+
+.container {
+
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.btn {
+
+    display: inline-block;
+    padding: 20px 60px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    background: yellow;
+    color: darkblue;
+}
+
+.logo {
+
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+
+}
+
+header {
+
+    background-image: url('.../header_bg.jpg')
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    padding: 20px 0 500px;
+}
+
+header p {
+
+    font-size: 40px;
+    text-align: center;
+}
+ 
+header .inner {
+
+    text-align: center;
+
+}
+
+.benefits {
+
+    background: white;
+    padding: 75px 0 ;
+    color: #555;
+}
+
+.benefits .inner {
+    width: 600px ;
+}
+
+.benefits h1 {
+     color: darkblue;
+     font-size: 24px;
+}
+
+.benefits p {
+
+     padding: 20px 0 50px;
+     font-size: 20px;
+}
+
+.benefits ul {
+
+     font-size: 22px;
+     list-style-type: disc;
+     padding-left: 70px;
+}
+
+.quote {
+
+     background-image: url(.../images/testimonial_bg.jpg)
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center;
+     padding: 60px 0;
+     text-align: center;
+}
+
+
+.quote .container {
+
+     max-width: 750px;
+}
+
+.quote span {
+
+     font-weight: bold;
+     font-size: 34px;
+}
+
+blockquote {
+
+     font-weight: 300;
+     font-style: italic
+     font-size: 32px;
+}
+
+.testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+  padding: 70px 0 70px;
+  color: #fff;
+}
+
+.testimonial blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  width: 580px;
+  margin: 0 auto;
+}
+
+.testimonial blockquote .author {
+  font-weight: 600;
+  display: block;
+  font-style: normal;
+}
+
+.ctaBox {
+
+     text-align: center;
+     background: yellow;
+     padding: 15px 0;
+}
+
+.ctaBox .btn {
+     background: darkblue;
+     color: white;
+}
+
+.pageFooter {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+
+.pageFooter .logo{
+
+    color: #f9e42e;
+    margin-bottom: 65px;
+}
+
+.pageFooter ul li {
+
+    display: inline-block;
+    list-style: none;
+    color: white;
+}
+
+.pageFooter p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.pageFooter a {
+  color: white;
+  font-size: 5em;
+}
+
+.pageIntro .inner {
+
+    text-align: center;
+
+}
+
+
