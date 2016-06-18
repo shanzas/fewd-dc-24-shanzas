@@ -107,7 +107,7 @@ a {
     float:left;
 }
 
-.breedContainer .toggler {
+.breedContainer .toggle {
     max-width: 24px;
     float:right;
     margin-right:5%;
