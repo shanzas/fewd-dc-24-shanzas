@@ -151,6 +151,8 @@ a {
   font-weight: 600;
 }
 
+.readless { display:none; }
+
 .button {
   border-radius: 5px;
   font-weight: 800;

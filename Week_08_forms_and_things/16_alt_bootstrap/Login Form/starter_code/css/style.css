@@ -224,5 +224,30 @@ footer p {
   font-weight: 600;
 }
 
+.form-horizontal{
+  font-size: 13px;
+  line-height: 1.333;
+  color: #606161;
+  padding-top: 30px;
+}
 
+label{
+
+    color: #606161;
+
+}
+
+#bottom-cta-1 {
+  margin: 0;
+  padding-right: 900px;
+  text-align: center;
+
+}
+
+.form-horizontal-newUser{
+  font-size: 13px;
+  line-height: 1.333;
+  color: #606161;
+  padding-top:  50px;
+}
 

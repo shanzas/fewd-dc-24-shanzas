@@ -2,6 +2,11 @@
 	box-sizing: border-box;
 }
 
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
 body {
   color: #f0efef;
   font-size: 26px;
@@ -10,6 +15,7 @@ body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
+
 a {
   text-decoration: none;
 }
@@ -44,6 +50,43 @@ header nav ul li {
 }
 header nav ul li a {
   color: #f9e42e;
+}
+
+.contact {
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+
+}
+
+.subHeads p{
+  line-height: 1.4;
+  color: #033048;
+  margin-bottom: 10px;
+  display: block;
+}
+
+textarea{
+  width: 600px;
+  height: 55px;
+  background: white;
+  border: solid 1.4px;
+  font-size: 10pt;
+  float: left;
+  color: #606161;
+  position: absolute;
+  border-radius: 5px;
+
+}
+
+.main{
+  margin: 0px;
+}
+
+label{
+  display: block;
+  margin-bottom: 10px;
 }
 
 /* -------------------------------- 

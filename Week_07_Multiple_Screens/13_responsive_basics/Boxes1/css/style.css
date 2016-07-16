@@ -1,0 +1,75 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+.box {
+	padding: 40px;
+	width: 25%;
+}
+
+header,
+.hero,
+.inner,
+footer {
+	border: 2px solid #000;
+}
+
+header,
+.hero,
+.content {
+	margin-bottom: 20px;
+}
+
+.smallheader{
+
+	border: 1px solid #000;
+}
+
+nav li{
+	list-style: none;
+	display:inline-block;
+	padding: 20px 40px;
+
+}
+
+.row {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.smallBorder{
+
+	border: 2px solid #000;
+
+}
+
+.box {
+
+	float: left;
+	padding: 20px;
+	width: 25%;
+}
+
+footer{
+	padding: 20px;
+}
+
+footer .box {
+
+	width: 33.333%;
+}
