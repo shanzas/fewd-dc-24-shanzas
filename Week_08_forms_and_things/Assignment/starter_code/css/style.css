@@ -368,7 +368,6 @@ footer p {
     display: none;
   }
 }
-
 form {
   margin: 20px 0 80px;
   overflow: hidden;
@@ -395,7 +394,7 @@ form ul li label {
 }
 form ul li input.radio {
   width: auto;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 form ul li input.radio:first-of-type {
   margin-left: 0;
@@ -406,3 +405,4 @@ form ul li input.button {
   font-size: 18px;
   margin-top: 40px;
 }
+
